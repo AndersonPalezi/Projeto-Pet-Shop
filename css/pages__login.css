@@ -40,6 +40,13 @@ nav a {
     display: grid;
     grid-gap: 15px;
 }
+.home{
+    text-decoration: none;
+    background: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    border-radius: 40px;
+    padding: 5px;
+}
 
 figure {
     text-align: center;
@@ -95,4 +102,40 @@ button:hover {
 }
 .recup__senha{
   color: var(--secondary-color);
+}
+ /* Estilo adicional para as opções de login */
+ .login-options {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.login-options button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.facebook-login {
+    background-color: #3b5998;
+    color: white;
+}
+
+.google-login {
+    background-color: #db4437;
+    color: white;
+}
+
+.twitter-login {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.login-options i {
+    margin-right: 8px; /* Espaço entre o ícone e o texto */
 }
