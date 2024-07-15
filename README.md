@@ -12,7 +12,7 @@ Bem-vindo ao projeto **Pet Shop da Bina**, uma aplicação web projetada para fa
 
 - **Font Awesome**: Integrado para fornecer ícones sociais nas opções de login, melhorando a experiência visual.
 
-## Estrutura do Projeto
 
-O projeto possui a seguinte estrutura de pastas:
+
+
 
